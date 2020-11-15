@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  background-color: lightpink;
+  position: absolute;
+  width: 35%;
+  left: 30%;
+  top: 50px;
+  border: solid 1px deeppink;
+  border-radius: 8px;
+  box-shadow: 2px 2px 15px deeppink;
+}
+.mydiv h3{
+  text-align: left;
+  margin-left: 15px;
+}
+.btn-clear{
+  padding: 12px 130px 12px 130px;
+  border-radius: 6px;
+  background-color: deepskyblue;
+  border: solid 1px dodgerblue;
+  font-weight: bolder;
+  outline: 1px solid rgba(242, 138, 178, 0.8);
+  margin-bottom: 1rem;
+}
+.btn-clear:hover{
+  color: #fff;
+  cursor: pointer;
+  background-color: dodgerblue;
+}
+.person {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 1.5rem;
+  margin-bottom: 0.6rem;
+  align-items: center;
+}
+.person div{
+  text-align: left;
+}
+.person p{
+  margin-top: -14px;
+}
+.person img {
+  margin-left: 10px;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: var(--light-shadow);
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
